@@ -1,0 +1,236 @@
+body {
+        background-image: url("rr_back.png");
+        background-size: 5px;
+        /*background-color: ghostwhite;*/
+        margin: 0;/*removes the white space between the div tag and the top of page*/
+        padding:0;/*removes the white space between the div tag and the top of page*/
+}
+
+#first_header {
+        width: 1000px;/*div's width*/
+        height: 150px;/*div's heigth*/
+        margin: auto;/*horizontally center a block element*/
+        display: flex;/*specifies if or how an element is displayed*/                            
+        background-image: url("rr_logo.jpg");
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+        background-color: white;
+        background-position: center;        
+}
+
+#first_header img {
+        width: 150px;
+        height: 150px;
+}
+
+label {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: black;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        padding: 5px;
+        margin: 5px;
+}
+
+#third_header {
+        width: 1000px;
+        height: 27px;
+        /*border-style: solid;
+        border-width: 1px;
+        border-color: black;*/
+        margin: auto;
+        display: flex;       
+        justify-content: center;
+        background: black;
+}
+
+        /*horizontal navigation bar*/  
+
+#nav {
+        list-style: none; /*removes the bullets*/
+        margin: 0;/*removes browser default settings*/
+        padding: 0;/*removes browser default settings*/
+        overflow: hidden;
+        background-color: black;
+}
+
+#nav li {
+        display: inline; /*sets horizontal menu*/
+        padding: 5px;
+        margin: 5px;
+        border-right: 1px solid #bbb;
+        line-height: 25px;
+} 
+
+#nav li:last-child {
+        border-right: none;
+}
+
+#nav li a {
+        text-decoration: none;
+        text-align: center;
+        vertical-align: middle;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        color: white;
+        margin: 10px;
+}
+
+#nav li a:hover {
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 20px;
+}
+
+#first_section {
+        width: 1000px;
+        height: 650px;
+        /*border-style: solid;
+        border-width: 1px;
+        border-color: black;*/
+        margin: auto;
+        display: flex;       
+        justify-content: center;
+        background-image: url("rrr07.jpg");
+        background-size: 1000px 650px;
+        background-repeat: no-repeat;
+}
+/*background-size properties: auto|length|cover|contain|initial|inherit;*/
+                          
+#second_section {
+        width: 1000px;
+        height: 330px;
+        /*border-style: solid;
+        border-width: 1px;
+        border-color: black;*/
+        margin: auto;
+        display: block;
+        background-color: white;
+}                          
+
+#second_section h2 {
+        margin-left: 40px;
+        padding-left: 40px;
+        text-align: center;
+        word-spacing: 5px;
+}
+
+#text {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 20px;
+        color: black;
+        margin: 5px 30px 5px 30px;
+        padding: 5px 30px 5px 30px;
+        -webkit-column-count: 3;
+        column-count: 3;
+        column-rule: 1px solid lightgray;
+        -webkit-column-rule: 1px solid lightgrey;
+
+}
+ 
+#third_section {
+        width: 1000px;
+        height: 200px;
+        /*border-style: solid;
+        border-width: 1px;
+        border-color: black;*/
+        margin: auto;
+        display: flex;      
+        justify-content: center;
+        background-color: white;
+}                          
+ 
+.text_block {
+        width: 280px;
+        height: 180px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        margin: 10px;
+        display: block;      
+        justify-content: center;
+}                          
+
+#short_text_first {
+        background-image: url("rrr20.jpg");
+        background-size: 280px 180px;
+        background-repeat: no-repeat;
+}
+
+#short_text_second {
+        background-image: url("rrr04.jpg");
+        background-size: 280px 180px;
+        background-repeat: no-repeat;
+}
+
+#short_text_third {
+        background-image: url("rrr18.jpg");
+        background-size: 280px 180px;
+        background-repeat: no-repeat;
+}
+
+#first_footer {
+        width: 1000px;
+        height: 25px;
+        /*border-style: solid;
+        border-width: 1px;
+        border-color: black;*/
+        margin: auto;
+        display: flex;      
+        justify-content: center;
+        background-color: black;
+}
+ 
+#second_footer {
+        width: 1000px;
+        height: 40px;
+        /*border-style: solid;
+        border-width: 1px;
+        border-color: black;*/
+        margin: auto;
+        display: flex;                    
+        background-color: grey;
+        justify-content: center; /* align horizontal */
+        align-items: center; /* align vertical */
+}
+
+#second_footer img {
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+}
+
+#second_footer a :hover {
+        background-color: white;
+}
+
+#third_footer {
+        width: 1000px;
+        height: 25px;
+        /*border-style: solid;
+        border-width: 1px;
+        border-color: black;*/
+        margin: auto;
+        display: flex;                    
+        background-color: black;
+}      
+
+#third_footer p {
+        text-decoration: none;
+        font-family: Helvetica, sans-serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        color: white;
+        margin: 0;
+        padding: 5px;
+        text-align: right;
+}                   
